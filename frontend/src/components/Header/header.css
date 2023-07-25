@@ -1,10 +1,14 @@
 :root {
-   --primary-color     : #ff7e01;
-   --secondary-color   : #faa935;
+   --primary-color     : #2701ff;
+   --secondary-color   : #35fae9;
    --heading-color     : #0b2727;
    --text-color        : #6e7074;
-   --font-name         : "Montserrat", sans-serif;
+   --font-name         : "Island Moments", sans-serif;
    --subtitle-font-name: "Island Moments", cursive;
+}
+
+.vabbtn{
+   color:red
 }
 
 .header {
@@ -14,7 +18,7 @@
 }
 
 .logo img {
-   width: 30%;
+   /* width: 30%; */
 }
 
 .menu {
@@ -29,7 +33,7 @@
 }
 
 .nav__item a:hover {
-   color: inherit;
+   color: greenyellow;
 }
 
 .nav__item a.active__link {
